@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
 
                 <div className='headerBtn'>
-                    <button class="rounded-lg btn">Star Applying</button>
+                    <button className="rounded-lg btn">Star Applying</button>
                 </div>
             </div>
            
