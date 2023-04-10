@@ -1,0 +1,16 @@
+.banner{
+    background-color: #F9F9FF;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 800;
+    color: #1A1919;
+}
+.banner-title span{
+    color:  #7E90FE;
+}
+.banner-p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #757575;
+}
