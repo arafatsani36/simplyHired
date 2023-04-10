@@ -1,12 +1,16 @@
 import React from 'react';
 import Header from './component/Header/Header';
-import HomePage from './component/Statistics/Homepage/HomePage';
+import Home from './component/Home/Home';
+import FeaturedJobs from './component/Featuredjobs/FeaturedJobs';
+import { Outlet } from 'react-router-dom';
 
 const App = () => {
   return (
     <div>
       <Header></Header>
-      <HomePage></HomePage>
+      <Outlet></Outlet>
+      
+     
     </div>
   );
 };

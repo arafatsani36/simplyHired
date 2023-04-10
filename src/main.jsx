@@ -4,9 +4,11 @@ import App from './App'
 import './index.css'
 import {
   createBrowserRouter,
+  json,
   RouterProvider,
 } from "react-router-dom";
 import Statistics from './component/Statistics/Statistics';
+import Home from './component/Home/Home';
 
 
 const router = createBrowserRouter([
@@ -17,7 +19,15 @@ const router = createBrowserRouter([
       {
         path:'statistics',
         element:<Statistics></Statistics>
+      },
+
+      {
+        path: '/',
+        element:<Home></Home>,
+        loader:({params})=> fetch(`/featuredjobs.json`)
+
       }
+      
     ]
   }
 ])

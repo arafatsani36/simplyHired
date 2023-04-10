@@ -1,0 +1,62 @@
+[
+    {
+        "id" : "1abs",
+        "logo" : "https://lh3.googleusercontent.com/d_S5gxu_S1P6NR1gXeMthZeBzkrQMHdI5uvXrpn3nfJuXpCjlqhLQKH_hbOxTHxFhp5WugVOEcl4WDrv9rmKBDOMExhKU5KmmLFQVg",  
+        "title" : "Technical Database Engineer",
+        "name" : "Google LLC",
+        "remote" : "Remote",
+        "fulltime" : "Full Time",
+        "location" : "Russia",
+        "salary" : " 70K - 90K"
+    },
+    {
+        "id" : "2bas",
+        "logo" : "https://logowik.com/content/uploads/images/750_netflix.jpg",
+        "title" : "Senior Product Designer",
+        "name" : "Netflix",
+        "remote" : "Remote",
+        "fulltime" : "Full Time",
+        "location" : "Canada",
+        "salary" : "100k- 150k "
+    },
+    {
+        "id" : "3cbs",
+        "logo" : "https://www.pngall.com/wp-content/uploads/11/Tesla-Logo-Transparent.png",
+        "title" : "Software Engineer",
+        "name" : "Tesla",
+        "remote" : "Remote",
+        "fulltime" : "Full Time",
+        "location" : "USA",
+        "salary" : " 200K - 220K"
+    },
+    {
+        "id" : "4cbs",
+        "logo" : "https://img3.exportersindia.com/product_images/bc-full/2020/5/7196987/desktop-application-development-services-1588392703-5404944.png",
+        "title" : "Desktop application developer",
+        "name" : "Developer",
+        "remote" : "Remote",
+        "fulltime" : "Full Time",
+        "location" : "Dhaka, Bangladesh",
+        "salary" : "  40k-50k"
+    },
+    {
+        "id" : "5dcs",
+        "logo" : "https://res.cloudinary.com/practicaldev/image/fetch/s--4dTWqhur--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/72g3619hlg7tle8zpr2k.jpeg",
+        "title" : "Vue.js Engineer",
+        "name" : "Vue.js",
+        "remote" : "Remote",
+        "fulltime" : "Full Time",
+        "location" : "Dhaka, Bangladesh",
+        "salary" : "  35k-45k"
+    },
+    {
+        "id" : "6efs",
+        "logo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrHjKGVxLgZ9r5W06bCtibB_UVH9toXUMJA&usqp=CAU",
+        "title" : "Senior UX Designer",
+        "name" : "UX Designer",
+        "remote" : "Remote",
+        "fulltime" : "Full Time",
+        "location" : "USA",
+        "salary" : "  120k-150k"
+    }
+]

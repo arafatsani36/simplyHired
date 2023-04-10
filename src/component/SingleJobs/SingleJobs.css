@@ -1,0 +1,32 @@
+.job-featured{
+   border: 1px solid rgb(222, 222, 222);
+   border-radius: 10px;
+   padding: 20px;
+}
+.job-featured-title{
+    font-weight: 800;
+    font-size: 20px;
+    color: #474747;
+}
+.job-featured-name{
+    font-weight: 600;
+    font-size: 18px;
+    color: #757575;
+    margin: 5px 0;
+}
+.job-featured-btn{
+    border: 1px solid #9873FF;
+    color:#7E90FE;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.location{
+    color: #757575;
+    font-weight: 600;
+    font-size: 16px;
+}
+.salary{
+    color: #757575;
+    font-weight: 600;
+    font-size: 16px;
+}
