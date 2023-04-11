@@ -7,7 +7,14 @@
         "remote" : "Remote",
         "fulltime" : "Full Time",
         "location" : "Russia",
-        "salary" : " 70K - 90K"
+        "salary" : " 70K - 90K",
+        "jobdescription" : "Google’s hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up. We also care about building a more representative and inclusive workplace, and that begins with hiring. In order to truly build for everyone, we know that we need a diversity of perspectives and experiences, and a fair hiring process is the first step in getting there.",
+        "jobresponsibility" : "While we’re sure you’re ready to dive into the depths of the job search, we recommend starting with an often-overlooked first step: focus on you.Have you ever discovered you’re good at something you're not passionate about? Many of us have. This may be a result of the work you like to do, or it may be something you’ve had to get good at because of a previous project or role.",
+        "educationalrequirements" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "3-5 Years in this field.",
+        "phone" : " 750-00 00",
+        "email" : "info@gmail.com",
+        "address" : "Central Cities"
     },
     {
         "id" : "2bas",
@@ -17,7 +24,14 @@
         "remote" : "Remote",
         "fulltime" : "Full Time",
         "location" : "Canada",
-        "salary" : "100k- 150k "
+        "salary" : "100k- 150k ",
+        "jobdescription" : "Do you feel equally at home dreaming up new ideas to create elegant and delightful user experiences as you do rolling up your sleeves and writing the code that brings these ideas to life? Do you have the mindset of a Product Designer but the skills of a Senior Front-end Engineer? If so, we’d love to chat. The Design Technology team is looking for a new addition to the team who can help us continue to make progress on Netflix’s mission to entertain the world.",
+        "jobresponsibility" : "you will leverage your unique combination of solid design and engineering skills to make impactful contributions at each phase in the product innovation lifecycle. You will help brainstorm and then write the code that breathes life into new design concepts, making them tangible for the team.",
+        "educationalrequirements" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "2-3 Years in this field.",
+        "phone" : " 990-00 00",
+        "email" : "info@gmail.com",
+        "address" : "British Columbia"
     },
     {
         "id" : "3cbs",
@@ -27,7 +41,14 @@
         "remote" : "Remote",
         "fulltime" : "Full Time",
         "location" : "USA",
-        "salary" : " 200K - 220K"
+        "salary" : " 200K - 220K",
+        "jobdescription" : "Work scheduling maintenance  Liaison between Customer Claim Specialists and the Body Shop  Vehicle arrival preparation  WARP and CCC administration arrival  Customer communication and expectation  Rental coordination and hand off  Vehicle status updates  Material and supplies reordering  Repair review and delivery  Perform other related duties as assigned. ",
+        "jobresponsibility" : "Excellent written and verbal communication skills as well as the ability to follow instructions.  Ability to establish and maintain cooperative working relationships with those contacted in the course of work, including the public.",
+        "educationalrequirements" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "3-5 years of experience.",
+        "phone" : " 220-000",
+        "email" : "info@gmail.com",
+        "address" : "New York"
     },
     {
         "id" : "4cbs",
@@ -37,7 +58,14 @@
         "remote" : "Remote",
         "fulltime" : "Full Time",
         "location" : "Dhaka, Bangladesh",
-        "salary" : "  40k-50k"
+        "salary" : "  20k-30k",
+        "jobdescription" : "We're looking for skilled Desktop Application Developers to join our team. As a Desktop Application Developer, you     will be responsible for developing and maintaining cutting-edge desktop applications that meet our client's requirements.",
+        "jobresponsibility" : "If you're ready to take on exciting projects, work in a collaborative environment, and make a significant impact on our software development efforts, and also if you have e-commerce application experiences then this is the best opportunity for you!",
+        "educationalrequirements" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "3-5 years of experience.",
+        "phone" : " 0140-00000",
+        "email" : "info@gmail.com",
+        "address" : "Dhaka Bangladesh"
     },
     {
         "id" : "5dcs",
@@ -47,7 +75,14 @@
         "remote" : "Remote",
         "fulltime" : "Full Time",
         "location" : "Dhaka, Bangladesh",
-        "salary" : "  35k-45k"
+        "salary" : "  35k-45k",
+        "jobdescription" : "A fast-emerging company operating a payment-enabled marketplace to facilitate easy donation transactions is looking to hire a Vue.js Engineer. The engineer will be responsible for translating designs into scalable, responsive front-end applications.",
+        "jobresponsibility" : "Dive into complex problems and successfully deliver results on schedule.Establish best-in-class software engineer best practices.",
+        "educationalrequirements" : "Bachelor’s/Master’s degree in Computer Science (or equivalent experience).",
+        "experiences" : "1-2 years of experience.",
+        "phone" : " 0140-00000",
+        "email" : "info@gmail.com",
+        "address" : "Dhaka Bangladesh"
     },
     {
         "id" : "6efs",
@@ -57,6 +92,13 @@
         "remote" : "Remote",
         "fulltime" : "Full Time",
         "location" : "USA",
-        "salary" : "  120k-150k"
+        "salary" : "  120k-150k",
+        "jobdescription" : " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobresponsibility" : " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalrequirements" : "Bachelor degree to complete any reputational university..",
+        "experiences" : "3-4 years of experience.",
+        "phone" : " 880-00000",
+        "email" : "info@gmail.com",
+        "address" : "New York"
     }
 ]

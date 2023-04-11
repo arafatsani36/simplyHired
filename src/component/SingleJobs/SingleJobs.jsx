@@ -2,8 +2,9 @@ import React from 'react';
 import './SingleJobs.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
-  import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const SingleJobs = ({job}) => {
     return (
@@ -20,7 +21,7 @@ const SingleJobs = ({job}) => {
                     <p className='location'><FontAwesomeIcon icon={faLocationDot} /> {job.location}</p>
                     <p className='salary'><FontAwesomeIcon icon={faDollarSign} /> {job.salary}</p>
                 </div>
-                <button className="rounded-lg btn mt-6">View Details</button>
+              <Link to={`/JobDetails/${job.id}`}><button className="rounded-lg btn mt-6">View Details</button></Link>   
             </div>
             
         </div>

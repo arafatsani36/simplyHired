@@ -1,0 +1,22 @@
+.jobDetails-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.jobs{
+    font-weight: 600;
+    font-size: 16px;
+    color: #1A1919;
+   text-align: justify;
+}
+.jobs span{
+    color: #757575;
+}
+.job-info{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    padding: 15px;
+
+}
+.job-details{
+    border-bottom: 1px solid #7E90FE;
+    padding-top: 10px;
+}
