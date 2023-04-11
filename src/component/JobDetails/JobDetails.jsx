@@ -23,7 +23,7 @@ const JobDetails = () => {
     // console.log(id)
     return (
         <div className='container text-center'>
-            <h1 className='mt-5 jobDetails-title'>job details</h1>
+            <h1 className='mt-5 -title'>job details</h1>
             <div className='grid lg:grid-cols-2  gap-6 mt-10'>
                 <div>
                     <h4 className='jobs'>Job Description: <span>{jobs.jobdescription}</span></h4>
