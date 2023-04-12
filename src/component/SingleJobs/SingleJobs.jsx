@@ -25,6 +25,8 @@ const SingleJobs = ({job}) => {
               <Link to={`/JobDetails/${job.id}`}><button className="rounded-lg btn mt-6">View Details</button></Link>   
                
             </div>
+
+            
             
         </div>
     );

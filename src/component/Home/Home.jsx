@@ -8,7 +8,13 @@ import SingleJobs from '../SingleJobs/SingleJobs';
 
 const Home = () => {
 
-    const [jobCategory, SetJobCategory] = useState([])
+    const [jobCategory, SetJobCategory] = useState([]);
+
+    const [sowAllJobs , SetSowAllJobs] = useState(false)
+
+        const showAllJobs = () => {
+            SetSowAllJobs(true)
+        }
 
     useEffect(() => {
         fetch('jobcategory.json')
@@ -49,10 +55,16 @@ const Home = () => {
                 <p className='text-center job-Category-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='grid lg:grid-cols-2  gap-4 mt-10'>
                     {
-                       jobs.map(job => <SingleJobs key={job.id} job={job}></SingleJobs>)
+                       jobs.slice(0, sowAllJobs?6 : 4).map(job => <SingleJobs key={job.id} job={job}></SingleJobs>)
                     }
                 </div>
             </div>
+            <div className='seeallbtn'>
+                <p onClick={showAllJobs}>
+                    <button className="rounded-lg btn mt-6 mb-5">See All Jobs</button>
+                </p>  
+            </div>
+            
             
             
         </div>

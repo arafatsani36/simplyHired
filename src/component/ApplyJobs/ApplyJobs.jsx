@@ -3,6 +3,7 @@ import './ApplyJobs.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const ApplyJobs = ({job}) => {
     return (
@@ -28,7 +29,7 @@ const ApplyJobs = ({job}) => {
                 </div>
 
                 <div>
-                    <button className="rounded-lg btn mt-8">View Details</button>
+                  <Link to={`/JobDetails/${job.id}`}><button className="rounded-lg btn mt-8">View Details</button></Link> 
                 </div>
             </div>
         </div>
