@@ -1,0 +1,13 @@
+.question{
+    font-size: 25px;
+    color: goldenrod;
+    font-weight: bold;
+}
+.answer{
+    font-size: 20px;
+    color: rgb(26, 91, 241);
+}
+.answer span{
+    font-size: 20px;
+    color: rgb(241, 26, 26);
+}
