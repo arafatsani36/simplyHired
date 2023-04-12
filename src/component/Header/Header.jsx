@@ -14,7 +14,7 @@ const Header = () => {
                 
                     <ActiveLink to="/">Home</ActiveLink>
                     <ActiveLink to="/statistics">Statistics</ActiveLink>
-                    <ActiveLink to="/jobs">Applied Jobs</ActiveLink>
+                    <ActiveLink to="/appliedjobs">Applied Jobs</ActiveLink>
                     <ActiveLink to="/blog">Blog</ActiveLink> 
                 </div>
 

@@ -7,6 +7,7 @@ import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 
 const SingleJobs = ({job}) => {
+
     return (
         <div className='job-featured'>
             <div>
@@ -22,6 +23,7 @@ const SingleJobs = ({job}) => {
                     <p className='salary'><FontAwesomeIcon icon={faDollarSign} /> {job.salary}</p>
                 </div>
               <Link to={`/JobDetails/${job.id}`}><button className="rounded-lg btn mt-6">View Details</button></Link>   
+               
             </div>
             
         </div>

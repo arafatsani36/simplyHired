@@ -17,12 +17,6 @@ const Home = () => {
     },[])
 
     const jobs = useLoaderData();
-    // console.log(data)
-
-    // const 
-    // const handleJobDetailsId = (id) => {
-    //     console.log(id)
-    // }
 
     return (
             <div>

@@ -1,0 +1,35 @@
+.singlejob{
+    border: 1px solid rgb(244, 240, 240);
+    padding: 25px;
+}
+.job-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #474747;
+}
+.job-name{
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+}
+.job-remote{
+    border: 1px solid  #7E90FE;
+    color: #9873FF;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.job-fulltime{
+    border: 1px solid  #7E90FE;
+    color: #9873FF;
+    padding: 8px;
+    border-radius: 5px;
+}
+.jobs-location{
+    font-size: 18px;
+    color: #757575;
+}
+.job-salary{
+    font-size: 18px;
+    color: #757575;
+}

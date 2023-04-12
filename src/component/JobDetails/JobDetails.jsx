@@ -7,6 +7,7 @@ import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { addToDb } from '../../utilities/fakeDB';
 
 const JobDetails = () => {
     const jobDetails = useLoaderData();
@@ -19,8 +20,12 @@ const JobDetails = () => {
             setJobs(data)
         }
     })
+
+    const handleapplybtn = (id) => {
+        console.log(id);
+        addToDb(id)
+    }
     
-    // console.log(id)
     return (
         <div className='container text-center'>
             <h1 className='mt-5 -title'>job details</h1>
@@ -46,7 +51,7 @@ const JobDetails = () => {
                         </div>
                     </div>
                     
-                    <button className="rounded-lg btn mt-8">Apply Now</button>
+                    <button onClick={() => handleapplybtn(id)} className="rounded-lg btn mt-8">Apply Now</button>
                 </div>
 
             </div>
