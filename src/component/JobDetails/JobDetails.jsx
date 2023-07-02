@@ -17,7 +17,7 @@ const JobDetails = () => {
     useEffect(() => {
         if(jobDetails){ 
             const data = jobDetails.find(dt => dt.id == id);
-            setJobs(data)
+             setJobs(data)
         }
     })
 
